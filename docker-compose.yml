@@ -1,0 +1,7 @@
+version: "3"
+services:
+  city-tours:
+    container_name: city-tours
+    build: .
+    ports:
+      - "8014:80"
