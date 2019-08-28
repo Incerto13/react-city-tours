@@ -2,6 +2,7 @@ version: "3"
 services:
   city-tours:
     container_name: city-tours
+    restart: unless-stopped
     build: .
     ports:
       - "8014:80"
